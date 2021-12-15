@@ -1,15 +1,9 @@
-  a:link {
+  a:link,a:visited {
     color: black;
   }
-  
-  a:visited {
-    color: black;
+  a:hover{
+      color: gray;
   }
-  
-  a:hover {
-      background-color: blueviolet;
-   }
-  
-  a:active {
-    color: gainsboro;
-  } 
+  a:active{
+      color: lightskyblue;
+  }
