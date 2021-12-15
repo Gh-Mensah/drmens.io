@@ -7,8 +7,8 @@
   }
   
   a:hover {
-    color: gainsboro;
-  }
+      background-color: blueviolet;
+   }
   
   a:active {
     color: gainsboro;
