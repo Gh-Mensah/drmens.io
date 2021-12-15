@@ -10,7 +10,7 @@
   .rsziecon{
     width:20px;
     z-index: -2;
-    height: auto;
+    height: 50px;
     display: inline-block;
     border-style: solid;
     border-width: 3px;
