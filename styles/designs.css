@@ -9,8 +9,9 @@
   }
   .rsize{
     display: inline-block;
-    z-index: -3;
-    width: 50px;
+    z-index: 1;
+    width: 150px;
+    height: 50px;
     position: relative;
     right: 200%;
   }
