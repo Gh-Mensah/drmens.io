@@ -1,15 +1,15 @@
-a:link {
-    color: yellow;
+  a:link {
+    color: black;
   }
   
   a:visited {
-    color: cyan;
+    color: black;
   }
   
   a:hover {
-    color: lightgreen;
+    color: gainsboro;
   }
   
   a:active {
-    color: hotpink;
+    color: gainsboro;
   } 
