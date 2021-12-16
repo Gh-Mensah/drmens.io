@@ -9,5 +9,7 @@
   }
   .cross{
     background-color: blue;
+    display: inline-block;
     width: 45px;
+    height: 16px;
   }
