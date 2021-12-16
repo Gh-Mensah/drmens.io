@@ -9,7 +9,6 @@
   }
   .rsize{
     display: inline-block;
-    z-index: 1;
     width: 150px;
     height: 130px;
   }
