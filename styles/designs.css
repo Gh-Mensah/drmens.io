@@ -7,3 +7,11 @@
   a:active{
       color: lightskyblue;
   }
+
+  .cross{
+    width: 100px;
+    display: inline-block;
+    position: relative;
+    left: 250%;
+    z-index: -2;
+  }
