@@ -17,14 +17,18 @@
   a:active{
       color: lightskyblue;
   }
-   .cross{
-    width: 59px;
-    z-index: -1px;
+  .cross{
+    width: 74px;
+    z-index: -3px;
     display:inline-block;
     position:relative;
-    left:650%;
-    top:5px;
+    left:507%;
+    top:-3px;
    }
+   @media screen and (max-width: 767px) {
+     .cross{
+    display: none;
+  }
         </style>
         <link rel="icon" type="image/x-icon" href="images/favicon.ico">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
