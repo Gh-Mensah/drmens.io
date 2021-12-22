@@ -50,6 +50,11 @@
      border-style: solid;
      float: right;
    }
+   #cbrond::after{
+  content: "";
+  clear: both;
+  display: table;
+}
    .dtextinfo{
      border-style: solid;
      border-width: 1px;
@@ -118,8 +123,8 @@
           </div>
           <div class="col-md-1"></div>
           <div class="col-md-6">
-            <div class="border">
-            <div class="float-md-right border"><span class="rounded-circle mw-100" id="rond"></span></div>
+            <div class="border" id="cbrond">
+            <div class="brond"><span class="rounded-circle mw-100" id="rond"></span></div>
           </div>
           </div>
         </div>
