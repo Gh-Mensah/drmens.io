@@ -7,16 +7,15 @@
         <link rel="icon" type="image/png" sizes="16x16" href="images/webicon/favicon-16x16.png">
         <link rel="icon" href="images/webicon/favicon.ico">
         <link rel="manifest" href="images/webicon/site.webmanifest">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Monoton&family=Source+Code+Pro:wght@200&family=Varela+Round&display=swap" rel="stylesheet">
         <meta charset="UTF-8"/>
         <meta name="description" content="A personal Porfolio of my MERN stack full developer roadmap">
         <meta name="keywords" content="Portfolio,Works,Projects,Ghana,Resume,Hire me,Front-end,React,Dev,Javascript,Nodejs,developer,web developer">
         <meta name="author" content="Kwaku Asare">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
-          @font-face {
-            font-family: rounded;
-            src: url(/fonts/M_PLUS_Rounded_1c/MPLUSRounded1c-ExtraBold.ttf);
-          }
         a:link,a:visited {
     color: black;
   }
@@ -25,6 +24,9 @@
   }
   a:active{
       color: lightskyblue;
+  }
+  #letterhead{
+    font-family: 'Monoton', cursive;
   }
   .cross{
     width: 74px;
@@ -63,15 +65,15 @@
      border-style: solid;
      border-width: 1px;
      letter-spacing: 3.2px;
-     font-family: typodis;
+     font-family: 'Source Code Pro', monospace;
    }
    #lsindex{
      letter-spacing: 1px;
-     font-family: rounded;
+     font-family: 'Varela Round', sans-serif;
    }
    #lsfont{
      letter-spacing: 1px;
-     font-family: rounded;
+     font-family: 'Varela Round', sans-serif;
    }
    @media screen and (max-width: 767px) {
      .cross{
@@ -98,7 +100,7 @@
     <body>
       <nav class="navbar navbar-expand-md bg-light navbar-light">
         <a class="navbar-brand" href="#">
-          <span class="h4"><span class="text-primary">MEN</span></span>SAH
+          <span class="h4" id="letterhead"><span class="text-primary">MEN</span>SAH</span>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
           <span class="navbar-toggler-icon"></span>
