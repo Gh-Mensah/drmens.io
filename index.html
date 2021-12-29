@@ -33,11 +33,14 @@
   }
   .cross{
     width: 74px;
-    z-index: -3px;
+    z-index: -3;
     display:inline-block;
     position:relative;
     left:500%;
     top:-3px;
+   }
+   #objflex{
+     z-index: -3;
    }
    .shape{
      width: 93%;
@@ -143,7 +146,7 @@
         </button>
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
+            <li class="nav-item" id="objflex">
               <img src="images/crossimg.png" alt="beam-of-lines" class="cross">
             </li>
             <li class="nav-item">
