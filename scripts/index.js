@@ -1,4 +1,4 @@
-class Move extends  Component{
+class Move extends React.Component{
     render(){
         return(
             <div id="app">
