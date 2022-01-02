@@ -1,11 +1,10 @@
 class App extends React.Component{
     render(){
         return(
-            <div>
+            <div id="app">
                 <p>Kofi is a boy</p>
             </div>
         )
 }
 }
-
 ReactDOM.render(<App/>,document.getElementById("app"));
