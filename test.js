@@ -5,7 +5,7 @@ class App extends React.component{
                 <p>Kofi is a boy</p>
             </div>
         )
-    }
+}
 }
 
 ReactDOM.render(<App/>,document.getElementById("app"));
