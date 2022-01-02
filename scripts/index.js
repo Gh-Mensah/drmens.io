@@ -1,10 +1,10 @@
-class Move extends React.Component{
+class App extends React.Component{
     render(){
         return(
-            <div id="app">
+            <div id="apps">
             <p>Kofi is a boy</p>
             </div>
-        );
+        )
     }
 }
-ReactDOM.render(<Move/>,document.getElementById("app"));
+ReactDOM.render(<App/>,document.getElementById("app"));
