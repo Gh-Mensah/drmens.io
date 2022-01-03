@@ -1,14 +1,12 @@
-function Car(props) {
-  return (<h2>I am a { props.brand }!</h2>);
+var quoteArray = ["Welcome to my website brothers!"];
+var textPosition = 0; 
+// speed in milliseconds
+var speed = 100;
+typewriter = () => {
+  document.querySelector("#app").innerHTML = `${quoteArray[0].substring(0, textPosition)}<span id="type">\u25AE</span>`;
+  
+  if(textPosition++ != quoteArray[0].length)
+    setTimeout(typewriter, speed);
 }
 
-function Garage() {
-  return (
-    <>
-	    <h1>Who lives in my garage?</h1>
-	    <Car brand="Ford" />
-    </>
-  );
-}
-
-ReactDOM.render(<Garage />, document.getElementById('app'));
+window.addEventListener("load", typewriter)
