@@ -104,15 +104,10 @@
     opacity: 0;
   }
 }
-@media screen and (max-width: 767px){
-.cross{
-    display: none;
-  }
-  .shapepro{
-    display: none;
-  }
-}
    @media screen and (max-width: 768px) {
+    .cross{
+    display: none;
+  }
   .portimg{
     width: 240px;
     margin-bottom: 5px;
@@ -132,6 +127,14 @@
   #lsindex{
     margin-top: 30px;
   }
+  code{
+  animation: blinker 1s linear infinite;
+}
+@keyframes blinker{
+  0%{
+    opacity: 1;
+  }
+}
 }
         </style>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
