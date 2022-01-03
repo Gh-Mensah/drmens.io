@@ -1,17 +1,17 @@
-import React from "https://unpkg.com/react@17/umd/react.development.js";
-import ReactDOM from "https://unpkg.com/react-dom@17/umd/react-dom.development.js";
+import React from "https://cdn.skypack.dev/react";
+import ReactDOM from "https://cdn.skypack.dev/react-dom";
 
-function Car(props){
-  return <h4>I am a {props.brand}!</h4>;
+function Car(props) {
+  return <h2>I am a { props.brand }!</h2>;
 }
 
-function Garage(){
+function Garage() {
   return (
     <>
-	    <h5>Who lives in my garage?</h5>
-	    <Car brand="Ford"/>
+	    <h1>Who lives in my garage?</h1>
+	    <Car brand="Ford" />
     </>
   );
 }
 
-ReactDOM.render(<Garage/>, document.getElementById('app'));
+ReactDOM.render(<Garage />, document.getElementById('app'));
