@@ -1,6 +1,10 @@
 class Car extends React.Component {
     render() {
-      return <h2>Hi, I am a Car!</h2>;
+      return (
+          <div id="camp">
+      <h2>Hi, I am a Car!</h2>
+      </div>
+        );
     }
   }
   
