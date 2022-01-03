@@ -1,4 +1,4 @@
-const quoteArray = ["I am Kwaku Asare,a<br/>full MERN Stack developer."];
+const quoteArray = ["I am Kwaku Asare,a full MERN Stack developer."];
 let textPosition = 0; 
 // speed in milliseconds
 const speed = 150;
