@@ -9,4 +9,4 @@ typewriter = () => {
     setTimeout(typewriter, speed);
 }
 
-window.addEventListener("load", typewriter)
+window.addEventListener("load", typewriter);
