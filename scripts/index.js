@@ -1,17 +1,7 @@
-import React from "https://cdn.skypack.dev/react";
-import ReactDOM from "https://cdn.skypack.dev/react-dom";
-
-function Car(props) {
-  return <h2>I am a { props.brand }!</h2>;
-}
-
-function Garage() {
-  return (
-    <>
-	    <h1>Who lives in my garage?</h1>
-	    <Car brand="Ford" />
-    </>
-  );
-}
-
-ReactDOM.render(<Garage />, document.getElementById('app'));
+class Car extends React.Component {
+    render() {
+      return <h2>Hi, I am a Car!</h2>;
+    }
+  }
+  
+  ReactDOM.render(<Car />, document.getElementById('app'));
