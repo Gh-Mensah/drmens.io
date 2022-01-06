@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Kwaku Asare Info Page</title>
+        <title>Kwaku Asare</title>
         <link rel="apple-touch-icon" sizes="180x180" href="images/webicon/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="images/webicon/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="images/webicon/favicon-16x16.png">
@@ -19,8 +19,113 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <style>
+             a:link,a:visited {
+    color: black;
+  }
+  a:hover{
+      color: white;
+      font-weight: bolder;
+  }
+  a:active{
+      color: lightskyblue;
+  }
+  @keyframes example {
+  0%   {background-color: lightblue; width: 2.5%;}
+  5%  {background-color: lightblue; width: 5%;}
+  10% {background-color: lightblue; width: 7.5%;}
+  15% {background-color: lightblue; width: 10%;}
+  20% {background-color: lightblue; width: 12.5%;}
+  25% {background-color: lightblue; width: 15%;}
+  30% {background-color: lightblue; width: 17.5%;}
+  35% {background-color: lightblue; width: 20%;}
+  40% {background-color: lightblue; width: 22.5%;}
+  45% {background-color: lightblue; width: 25%;}
+  50% {background-color: lightblue; width: 27.5%;}
+  55% {background-color: lightblue; width: 30%;}
+  60% {background-color: lightblue; width: 32.5%;}
+  65% {background-color: lightblue; width: 35%;}
+  70% {background-color: lightblue; width: 37.5%;}
+  75% {background-color: lightblue; width: 40%;}
+  80% {background-color: lightblue; width: 42.5%;}
+  85% {background-color: lightblue; width: 45%;}
+  90% {background-color: lightblue; width: 47.5%;}
+  95% {background-color: lightblue; width: 50%;}
+  100% {background-color: lightblue; width: 52.5%;}
+}
+span.mborder{
+  width: 100%;
+  height: 5px;
+  display: block;
+  position: relative;
+}
+span.mbar{
+  display: none;
+}
+li.nav-item:hover span.mbar{
+  display: block;
+  border-radius: 5px;
+  width: 52.5%;
+  height: 5px;
+  display: block;
+  background-color: lightblue;
+  animation-name: example;
+  animation-duration: 0.4s;
+  position: relative;
+  left: 9px;
+  top: -10px;
+}
+  #letterhead{
+    font-family: 'Monoton', cursive;
+    cursor: default;
+  }
+  .cross{
+    width: 74px;
+    z-index: 1;
+    display:inline-block;
+    position:relative;
+    left: 498%;
+    top:-3px;
+   }
+   #plalink{
+     z-index: 2;
+     position: relative;
+   }
+        </style>
     </head>
     <body>
-        <h1>Heyy there </h1>
+        <body class="bg-gradient-light">
+            <nav class="navbar navbar-expand-md bg-gradient-light navbar-light">
+                <span class="h3 navbar-brand" id="letterhead"><span style="color: #0b8de3;">MEN</span>SAH</span>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item d-none d-md-block">
+                    <img src="images/crossimg.png" alt="beam-of-lines" class="cross">
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">HOME</a>
+                    <span class="mborder"><span class="mbar"></span></span>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">PROJECTS</a>
+                    <span class="mborder"><span class="mbar"></span></span>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html" target="_self">ABOUT</a>
+                    <span class="mborder"><span class="mbar"></span></span>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">CONTACT</a>
+                    <span class="mborder"><span class="mbar"></span></span>
+                  </li>
+                  <li class="nav-item">
+                  <a class="nav-link" id="plalink" href="#"><span style="color: #0b8de3;">RESUME</span></a>
+                  </li>    
+                </ul>
+              </div>  
+            </nav>
     </body>
 </html>
