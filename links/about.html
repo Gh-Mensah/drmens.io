@@ -97,6 +97,7 @@ li.nav-item:hover span.mbar{
     .shape{
       width: 92%;
       margin: auto;
+      position: relative;
     }
     .obj1{
       font-size: 4vw;
@@ -107,18 +108,26 @@ li.nav-item:hover span.mbar{
     .abtext{
       margin-top: 16px;
       text-align: left;
-      width: 100px;
       border-style: solid;
       border-width: 1px;
-    }
-    #imgobj{
-      z-index: 2;
-    }
-    #binfo{
       position: absolute;
-      max-width: 50%;
-      top: 39%;
+      top: 0%;
+      left: 0%;
+      height: 100%;
+      width: 100%;
     }
+    .img-cont{
+      position: absolute;
+      top: 0%;
+      left: 0%;
+      height: 100%;
+      width: 100%;
+    }
+    .devide{
+      z-index: 10;
+      margin: 40px;
+    }
+
     </style>
     </head>
     <body>
@@ -164,8 +173,10 @@ li.nav-item:hover span.mbar{
               </div>
               <div class="row">
                 <div class="col-md-5 border p-0">
+                  <div class="img-cont">
                   <img src="../images/false.png" alt="THE image should be here" class="img-fluid d-block" width="620px" height="620px" id="imgobj">
                   </div>
+                </div>
                   <div class="col-md-5 border p-0">
                     <div class="abtext">
                     <span class="obj1">/</span><span class="obj2">/</span><span style="font-size: 5.8vw;">A</span><span style="font-size: 6.1vw;">B</span><span style="font-size: 6.4vw;">O</span><span style="font-size: 6.7vw;">U</span><span style="font-size: 7vw;">T</span><span style="font-size: 4.2vw;">M</span><span style="font-size: 4.2vw;">E</span>
@@ -174,7 +185,8 @@ li.nav-item:hover span.mbar{
               </div>
               <div class="row">
                 <div class="col-md-12 border" id="binfo">
-                  List of menu
+                  <div class="devide">font-weight
+                  </div>
                 </div>
               </div>
             </div>
