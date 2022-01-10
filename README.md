@@ -1,1 +1,1 @@
-  I am trying to build my portfolio with reactjs,html and css and have some nice reactjs functionalities
+  I am trying to build a portfolio website on my own from scratch and showcase my reactjs projects in it.
