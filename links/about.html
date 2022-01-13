@@ -64,6 +64,7 @@ li{
   width: 100%;
   height: 5px;
   display: block;
+  position: relative;
 }
 .mbar{
   display: none;
@@ -332,32 +333,33 @@ a.nav-link:hover .mbar{
                 <div class="col-md-12 border p-0">
                   <div class="infop">
                     <div class="info-con">
-                      <ul class="nav float-md-right">
+                      <ul class="nav nav-pills float-md-right" role="tablist">
                         <li class="nav-item">
-                          <a class="tablelink" href="#life"  onclick="infoText(event, 'Life')">Life</a>
+                          <a class="nav-link" data-toggle="pill" href="#life">Life</a>
                         </li>
                         <li class="nav-item">
-                          <a class="tablelink" href="#education"  onclick="infoText(event, 'Education')">Education</a>
+                          <a class="nav-link" data-toggle="pill" href="#education">Education</a>
                         </li>
                         <li class="nav-item">
-                          <a class="tablelink" href="#experience" onclick="infoText(event, 'Experience')">Experience</a>
+                          <a class="nav-link" data-toggle="pill" href="#experience">Experience</a>
                         </li>
                       </ul>
-                        <div id="life" class="tcontent"><br><br><br>
+                      <div class="tab-content">
+                        <div id="life" class="container tab-pane active"><br><br><br>
                           <p class="w-75 float-md-right pl-md-5 ml-md-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         </div>
-                        <div id="education" class="tcontent"><br><br><br>
+                        <div id="education" class="container tab-pane fade"><br><br><br>
                           <p class="w-75 float-md-right pl-md-5 ml-md-2">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                         </div>
-                        <div id="experience" class="tcontent"><br><br><br>
+                        <div id="experience" class="container tab-pane fade"><br><br><br>
                           <p class="w-75 float-md-right pl-md-5 ml-md-2">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
                         </div>
+                      </div>
                     </div>
                   </div>
                   </div>
                 </div>
               </div>
             </div>
-            <script src="../scripts/aboutscript.js"></script>
     </body>
 </html>
