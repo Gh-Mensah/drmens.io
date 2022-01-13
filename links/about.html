@@ -332,28 +332,28 @@ a.nav-link:hover .mbar{
                 <div class="col-md-12 border p-0">
                   <div class="infop">
                     <div class="info-con">
-                      <ul class="nav float-md-right" role="tablist">
+                      <ul class="nav float-md-right">
                         <li class="nav-item">
-                          <a class="nav-link" href="#life">Life
+                          <a class="nav-link" href="#life"  onclick="openInfo(event, 'Life')" id="tablelink">Life
                           <div class="d-none d-md-block"><span class="mborder"><span class="mbar"></span></span></div></a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#education">Education
+                          <a class="nav-link" href="#education"  onclick="openInfo(event, 'Education')" id="tablelink">Education
                           <div class="d-none d-md-block"><span class="mborder"><span class="mbar"></span></span></div></a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#experience">Experience
+                          <a class="nav-link" href="#experience" onclick="openInfo(event, 'Experience')" id="tablelink">Experience
                           <div class="d-none d-md-block"><span class="mborder"><span class="mbar"></span></span></div></a>
                         </li>
                       </ul>
                       <div class="tab-content">
-                        <div id="life" class="container tab-pane active"><br><br><br>
+                        <div id="life" class="tcontent"><br><br><br>
                           <p class="w-75 float-md-right pl-md-5 ml-md-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         </div>
-                        <div id="education" class="container tab-pane fade"><br><br><br>
+                        <div id="education" class="tcontent"><br><br><br>
                           <p class="w-75 float-md-right pl-md-5 ml-md-2">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                         </div>
-                        <div id="experience" class="container tab-pane fade"><br><br><br>
+                        <div id="experience" class="tcontent"><br><br><br>
                           <p class="w-75 float-md-right pl-md-5 ml-md-2">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
                         </div>
                       </div>
@@ -363,5 +363,6 @@ a.nav-link:hover .mbar{
                 </div>
               </div>
             </div>
+            <script src="../scripts/aboutscript.js"></script>
     </body>
 </html>
