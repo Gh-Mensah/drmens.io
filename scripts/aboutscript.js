@@ -1,10 +1,10 @@
-function openInfo(evt,infoText) {
+function openCity(evt, infoText) {
     var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("tcontent");
     for (i = 0; i < tabcontent.length; i++) {
         tabcontent[i].style.display = "none";
     }
-    tablinks = document.getElementsByClassName("nav-link");
+    tablinks = document.getElementsByClassName("tablink");
     for (i = 0; i < tabcontent.length; i++) {
         tablinks[i].className = tablinks[i].className.replace(" active", "");
     }
