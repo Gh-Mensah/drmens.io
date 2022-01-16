@@ -1,7 +1,7 @@
 const quoteArray = ["I am Kwaku Asare,a full MERN Stack developer."];
 let textPosition = 0; 
 // speed in milliseconds
-const speed = 180;
+const speed = 100;
 typewriter = () => {
   document.querySelector(".dtextinfo").innerHTML = `${quoteArray[0].substring(0, textPosition)}<code>|</code>`;
   
